@@ -1,0 +1,23 @@
+{
+  "name": "arduino-jingle-bells",
+  "version": "0.1.0",
+  "author": "Nathan Hoad <nathan@nathanhoad.net>",
+  "description": "Play Jingle Bells accompianied by some Christmas lights on an Arduino UNO",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nathanhoad/arduino-jingle-bells.git"
+  },
+  "keywords": [
+    "arduino",
+    "christmas"
+  ],
+  "dependencies" : {
+    "johnny-five":  "0.7.x",
+    "serialport": "1.2.x"
+  },  
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10"
+  }
+}
